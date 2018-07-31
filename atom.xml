@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-31T02:36:38.710Z</updated>
+  <updated>2018-06-26T09:36:11.352Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,41 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>aaaaaaa</title>
-    <link href="http://yoursite.com/2018/09/10/aaa/"/>
-    <id>http://yoursite.com/2018/09/10/aaa/</id>
-    <published>2018-09-10T04:18:15.000Z</published>
-    <updated>2018-07-31T02:36:38.710Z</updated>
-    
-    <content type="html"><![CDATA[<p>  对于一些常用的工具类，我们经常会在很多项目中都使用到，如果每个项目中都对这些代码进行拷贝，确实是一件比较麻烦的事情；另外，我们经常会创造一些比较实用的项目，也希望能够拿这些项目去帮助别人。因此，将自己的工具类或者项目开源是一个很必要的事情。</p>
-<p>  android studio中引入第三方库，基本都是来自于jcenter仓库，我们也可以把自己的项目放到jcenter仓库。</p>
-<p>下面是具体的操作流程</p>
-<a id="more"></a>
-<h3 id="注册bintray-com账号"><a class="header-anchor" href="#注册bintray-com账号">¶</a>注册bintray.com账号。</h3>
-<ol>
-<li>进入https://bintray.com/，注册账号。
-<img src="/path/aaa.png" alt=""></li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  对于一些常用的工具类，我们经常会在很多项目中都使用到，如果每个项目中都对这些代码进行拷贝，确实是一件比较麻烦的事情；另外，我们经常会创造一些比较实用的项目，也希望能够拿这些项目去帮助别人。因此，将自己的工具类或者项目开源是一个很必要的事情。&lt;/p&gt;
-&lt;p&gt;  android studio中引入第三方库，基本都是来自于jcenter仓库，我们也可以把自己的项目放到jcenter仓库。&lt;/p&gt;
-&lt;p&gt;下面是具体的操作流程&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android studio" scheme="http://yoursite.com/categories/Android-studio/"/>
-    
-    
-      <category term="Android studio" scheme="http://yoursite.com/tags/Android-studio/"/>
-    
-      <category term="jCenter" scheme="http://yoursite.com/tags/jCenter/"/>
-    
-  </entry>
   
   <entry>
     <title>PathMeasure在项目中的使用</title>
@@ -1269,9 +1234,9 @@
       <category term="计算机网络" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="计算机网络" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
       <category term="数据链路层" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/"/>
+    
+      <category term="计算机网络" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -2179,6 +2144,76 @@
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
       <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>串</title>
+    <link href="http://yoursite.com/2017/06/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E4%B8%B2/"/>
+    <id>http://yoursite.com/2017/06/05/数据结构-串/</id>
+    <published>2017-06-05T14:22:15.000Z</published>
+    <updated>2018-06-26T06:21:51.031Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>串是有零个或多个字符组成的有限序列，又名叫字符串。</li>
+<li>零个字符的串称为空串</li>
+<li>ASCII码：8位2进制数表示一个字符</li>
+<li>Unicode码：由16位2进制数表示一个字符</li>
+</ul>
+<a id="more"></a>
+<ul>
+<li>比较两个字符串的大小
+<ul>
+<li><img src="https://ws1.sinaimg.cn/large/5cc1a78ely1fsok4h0nyxj211u09wtej.jpg" alt=""></li>
+</ul>
+</li>
+<li>串的存储结构
+<ul>
+<li>串的顺序存储结构
+<ul>
+<li>串的顺序存储结构是用一组地址连续的存储单元来存储串中的字符序列的，按照预定义的大小，为每个定义的串变量分配一个固定长度的存储区。一般是用定长数组来定义。</li>
+</ul>
+</li>
+<li>串的链式存储结构
+<ul>
+<li>一个结点可以存放一个字符，也可以存放多个字符，最后一个结点若未被占满时，可以用“#”或其他非串值字符来补全。</li>
+<li>串的链式存储结构除了在连接串与串操作时有一定的方便之外，总的来说不如顺序存储灵活，性能也不如顺序存储结构好。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>朴素的模式匹配算法
+<ul>
+<li>对主串的每一个字符作为子串开头，与要匹配的字符串进行匹配。对主串做大循环，每个字符开头做要匹配字符串的长度的小循环，知道匹配成功或全部遍历完成为止。</li>
+<li>这种模式匹配算法太低效了。</li>
+</ul>
+</li>
+<li>KMP模式匹配算法</li>
+<li>总结
+<ul>
+<li>串是有零个或多个字符组成的有限序列，又名字符串。本子上，它是一种线性表的扩展，但相对于线性表关注一个个元素来说，我们队串这种结构更多的是关注它子串的应用问题，如查找，替换等操作。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;串是有零个或多个字符组成的有限序列，又名叫字符串。&lt;/li&gt;
+&lt;li&gt;零个字符的串称为空串&lt;/li&gt;
+&lt;li&gt;ASCII码：8位2进制数表示一个字符&lt;/li&gt;
+&lt;li&gt;Unicode码：由16位2进制数表示一个字符&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="串" scheme="http://yoursite.com/tags/%E4%B8%B2/"/>
     
   </entry>
   

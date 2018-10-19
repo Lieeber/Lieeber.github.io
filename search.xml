@@ -20,8 +20,8 @@
         <category>java基础</category>
       </categories>
       <tags>
-        <tag>java</tag>
         <tag>设计模式</tag>
+        <tag>java</tag>
         <tag>适配器模式</tag>
       </tags>
   </entry>
@@ -33,8 +33,8 @@
         <category>java基础</category>
       </categories>
       <tags>
-        <tag>java</tag>
         <tag>设计模式</tag>
+        <tag>java</tag>
         <tag>建造者模式</tag>
       </tags>
   </entry>
@@ -190,8 +190,8 @@
         <category>计算机网络</category>
       </categories>
       <tags>
-        <tag>数据链路层</tag>
         <tag>计算机网络</tag>
+        <tag>数据链路层</tag>
       </tags>
   </entry>
   <entry>
@@ -202,8 +202,8 @@
         <category>计算机网络</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
         <tag>物理层</tag>
+        <tag>计算机网络</tag>
       </tags>
   </entry>
   <entry>

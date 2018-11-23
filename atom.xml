@@ -630,31 +630,6 @@ HeapAnalyzerService服务拿到分析结果后，调用了AbstractAnalysisResult
   </entry>
   
   <entry>
-    <title>自定义View绘制顺序</title>
-    <link href="http://yoursite.com/2017/11/12/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6-%E8%87%AA%E5%AE%9A%E4%B9%89View%E7%BB%98%E5%88%B6%E9%A1%BA%E5%BA%8F/"/>
-    <id>http://yoursite.com/2017/11/12/自定义控件-自定义View绘制顺序/</id>
-    <published>2017-11-12T04:18:15.000Z</published>
-    <updated>2018-06-26T08:14:33.715Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://ws1.sinaimg.cn/large/5cc1a78ely1fsonff5trdj20ru0c8dia.jpg" alt=""></p>
-<a id="more"></a>
-<p><img src="https://ws1.sinaimg.cn/large/5cc1a78ely1fsonfmwhs8j20q70e0tcc.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/5cc1a78ely1fsonff5trdj20ru0c8dia.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="自定义控件" scheme="http://yoursite.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
-    
-    
-      <category term="自定义控件" scheme="http://yoursite.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>属性动画大集合</title>
     <link href="http://yoursite.com/2017/11/12/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6-%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB/"/>
     <id>http://yoursite.com/2017/11/12/自定义控件-属性动画/</id>
@@ -833,6 +808,31 @@ HeapAnalyzerService服务拿到分析结果后，调用了AbstractAnalysisResult
       <category term="自定义控件" scheme="http://yoursite.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
     
       <category term="属性动画" scheme="http://yoursite.com/tags/%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自定义View绘制顺序</title>
+    <link href="http://yoursite.com/2017/11/12/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6-%E8%87%AA%E5%AE%9A%E4%B9%89View%E7%BB%98%E5%88%B6%E9%A1%BA%E5%BA%8F/"/>
+    <id>http://yoursite.com/2017/11/12/自定义控件-自定义View绘制顺序/</id>
+    <published>2017-11-12T04:18:15.000Z</published>
+    <updated>2018-06-26T08:14:33.715Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ws1.sinaimg.cn/large/5cc1a78ely1fsonff5trdj20ru0c8dia.jpg" alt=""></p>
+<a id="more"></a>
+<p><img src="https://ws1.sinaimg.cn/large/5cc1a78ely1fsonfmwhs8j20q70e0tcc.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/5cc1a78ely1fsonff5trdj20ru0c8dia.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="自定义控件" scheme="http://yoursite.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
+    
+    
+      <category term="自定义控件" scheme="http://yoursite.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
     
   </entry>
   
@@ -1553,9 +1553,9 @@ HeapAnalyzerService服务拿到分析结果后，调用了AbstractAnalysisResult
       <category term="计算机网络" scheme="http://yoursite.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-      <category term="计算机网络" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
       <category term="数据链路层" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/"/>
+    
+      <category term="计算机网络" scheme="http://yoursite.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
